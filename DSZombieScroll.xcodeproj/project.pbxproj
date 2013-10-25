@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91CAE1FC181B18F600DF8CD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CAE1FB181B18F500DF8CD0 /* Foundation.framework */; };
+		91CAE1FE181B18F600DF8CD0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CAE1FD181B18F600DF8CD0 /* CoreGraphics.framework */; };
+		91CAE200181B18F600DF8CD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CAE1FF181B18F600DF8CD0 /* UIKit.framework */; };
+		91CAE206181B18F600DF8CD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91CAE204181B18F600DF8CD0 /* InfoPlist.strings */; };
+		91CAE208181B18F600DF8CD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CAE207181B18F600DF8CD0 /* main.m */; };
+		91CAE20C181B18F600DF8CD0 /* DSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CAE20B181B18F600DF8CD0 /* DSAppDelegate.m */; };
+		91CAE20F181B18F600DF8CD0 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91CAE20D181B18F600DF8CD0 /* Main_iPhone.storyboard */; };
+		91CAE212181B18F600DF8CD0 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91CAE210181B18F600DF8CD0 /* Main_iPad.storyboard */; };
+		91CAE215181B18F600DF8CD0 /* DSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CAE214181B18F600DF8CD0 /* DSViewController.m */; };
+		91CAE217181B18F600DF8CD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91CAE216181B18F600DF8CD0 /* Images.xcassets */; };
+		91CAE21E181B18F600DF8CD0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CAE21D181B18F600DF8CD0 /* XCTest.framework */; };
+		91CAE21F181B18F600DF8CD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CAE1FB181B18F500DF8CD0 /* Foundation.framework */; };
+		91CAE220181B18F600DF8CD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CAE1FF181B18F600DF8CD0 /* UIKit.framework */; };
+		91CAE228181B18F600DF8CD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91CAE226181B18F600DF8CD0 /* InfoPlist.strings */; };
+		91CAE22A181B18F600DF8CD0 /* DSZombieScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CAE229181B18F600DF8CD0 /* DSZombieScrollTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91CAE221181B18F600DF8CD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91CAE1F0181B18F500DF8CD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91CAE1F7181B18F500DF8CD0;
+			remoteInfo = DSZombieScroll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91CAE1F8181B18F500DF8CD0 /* DSZombieScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSZombieScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91CAE1FB181B18F500DF8CD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91CAE1FD181B18F600DF8CD0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		91CAE1FF181B18F600DF8CD0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		91CAE203181B18F600DF8CD0 /* DSZombieScroll-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DSZombieScroll-Info.plist"; sourceTree = "<group>"; };
+		91CAE205181B18F600DF8CD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91CAE207181B18F600DF8CD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91CAE209181B18F600DF8CD0 /* DSZombieScroll-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DSZombieScroll-Prefix.pch"; sourceTree = "<group>"; };
+		91CAE20A181B18F600DF8CD0 /* DSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSAppDelegate.h; sourceTree = "<group>"; };
+		91CAE20B181B18F600DF8CD0 /* DSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSAppDelegate.m; sourceTree = "<group>"; };
+		91CAE20E181B18F600DF8CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		91CAE211181B18F600DF8CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		91CAE213181B18F600DF8CD0 /* DSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSViewController.h; sourceTree = "<group>"; };
+		91CAE214181B18F600DF8CD0 /* DSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSViewController.m; sourceTree = "<group>"; };
+		91CAE216181B18F600DF8CD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		91CAE21C181B18F600DF8CD0 /* DSZombieScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSZombieScrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91CAE21D181B18F600DF8CD0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		91CAE225181B18F600DF8CD0 /* DSZombieScrollTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DSZombieScrollTests-Info.plist"; sourceTree = "<group>"; };
+		91CAE227181B18F600DF8CD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91CAE229181B18F600DF8CD0 /* DSZombieScrollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSZombieScrollTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91CAE1F5181B18F500DF8CD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CAE1FE181B18F600DF8CD0 /* CoreGraphics.framework in Frameworks */,
+				91CAE200181B18F600DF8CD0 /* UIKit.framework in Frameworks */,
+				91CAE1FC181B18F600DF8CD0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CAE219181B18F600DF8CD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CAE21E181B18F600DF8CD0 /* XCTest.framework in Frameworks */,
+				91CAE220181B18F600DF8CD0 /* UIKit.framework in Frameworks */,
+				91CAE21F181B18F600DF8CD0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91CAE1EF181B18F500DF8CD0 = {
+			isa = PBXGroup;
+			children = (
+				91CAE201181B18F600DF8CD0 /* DSZombieScroll */,
+				91CAE223181B18F600DF8CD0 /* DSZombieScrollTests */,
+				91CAE1FA181B18F500DF8CD0 /* Frameworks */,
+				91CAE1F9181B18F500DF8CD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91CAE1F9181B18F500DF8CD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91CAE1F8181B18F500DF8CD0 /* DSZombieScroll.app */,
+				91CAE21C181B18F600DF8CD0 /* DSZombieScrollTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91CAE1FA181B18F500DF8CD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91CAE1FB181B18F500DF8CD0 /* Foundation.framework */,
+				91CAE1FD181B18F600DF8CD0 /* CoreGraphics.framework */,
+				91CAE1FF181B18F600DF8CD0 /* UIKit.framework */,
+				91CAE21D181B18F600DF8CD0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91CAE201181B18F600DF8CD0 /* DSZombieScroll */ = {
+			isa = PBXGroup;
+			children = (
+				91CAE20A181B18F600DF8CD0 /* DSAppDelegate.h */,
+				91CAE20B181B18F600DF8CD0 /* DSAppDelegate.m */,
+				91CAE20D181B18F600DF8CD0 /* Main_iPhone.storyboard */,
+				91CAE210181B18F600DF8CD0 /* Main_iPad.storyboard */,
+				91CAE213181B18F600DF8CD0 /* DSViewController.h */,
+				91CAE214181B18F600DF8CD0 /* DSViewController.m */,
+				91CAE216181B18F600DF8CD0 /* Images.xcassets */,
+				91CAE202181B18F600DF8CD0 /* Supporting Files */,
+			);
+			path = DSZombieScroll;
+			sourceTree = "<group>";
+		};
+		91CAE202181B18F600DF8CD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91CAE203181B18F600DF8CD0 /* DSZombieScroll-Info.plist */,
+				91CAE204181B18F600DF8CD0 /* InfoPlist.strings */,
+				91CAE207181B18F600DF8CD0 /* main.m */,
+				91CAE209181B18F600DF8CD0 /* DSZombieScroll-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91CAE223181B18F600DF8CD0 /* DSZombieScrollTests */ = {
+			isa = PBXGroup;
+			children = (
+				91CAE229181B18F600DF8CD0 /* DSZombieScrollTests.m */,
+				91CAE224181B18F600DF8CD0 /* Supporting Files */,
+			);
+			path = DSZombieScrollTests;
+			sourceTree = "<group>";
+		};
+		91CAE224181B18F600DF8CD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91CAE225181B18F600DF8CD0 /* DSZombieScrollTests-Info.plist */,
+				91CAE226181B18F600DF8CD0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91CAE1F7181B18F500DF8CD0 /* DSZombieScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91CAE22D181B18F600DF8CD0 /* Build configuration list for PBXNativeTarget "DSZombieScroll" */;
+			buildPhases = (
+				91CAE1F4181B18F500DF8CD0 /* Sources */,
+				91CAE1F5181B18F500DF8CD0 /* Frameworks */,
+				91CAE1F6181B18F500DF8CD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSZombieScroll;
+			productName = DSZombieScroll;
+			productReference = 91CAE1F8181B18F500DF8CD0 /* DSZombieScroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91CAE21B181B18F600DF8CD0 /* DSZombieScrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91CAE230181B18F600DF8CD0 /* Build configuration list for PBXNativeTarget "DSZombieScrollTests" */;
+			buildPhases = (
+				91CAE218181B18F600DF8CD0 /* Sources */,
+				91CAE219181B18F600DF8CD0 /* Frameworks */,
+				91CAE21A181B18F600DF8CD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91CAE222181B18F600DF8CD0 /* PBXTargetDependency */,
+			);
+			name = DSZombieScrollTests;
+			productName = DSZombieScrollTests;
+			productReference = 91CAE21C181B18F600DF8CD0 /* DSZombieScrollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91CAE1F0181B18F500DF8CD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "SETEC ASTRONOMY";
+				TargetAttributes = {
+					91CAE21B181B18F600DF8CD0 = {
+						TestTargetID = 91CAE1F7181B18F500DF8CD0;
+					};
+				};
+			};
+			buildConfigurationList = 91CAE1F3181B18F500DF8CD0 /* Build configuration list for PBXProject "DSZombieScroll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91CAE1EF181B18F500DF8CD0;
+			productRefGroup = 91CAE1F9181B18F500DF8CD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91CAE1F7181B18F500DF8CD0 /* DSZombieScroll */,
+				91CAE21B181B18F600DF8CD0 /* DSZombieScrollTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91CAE1F6181B18F500DF8CD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CAE212181B18F600DF8CD0 /* Main_iPad.storyboard in Resources */,
+				91CAE217181B18F600DF8CD0 /* Images.xcassets in Resources */,
+				91CAE20F181B18F600DF8CD0 /* Main_iPhone.storyboard in Resources */,
+				91CAE206181B18F600DF8CD0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CAE21A181B18F600DF8CD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CAE228181B18F600DF8CD0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91CAE1F4181B18F500DF8CD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CAE208181B18F600DF8CD0 /* main.m in Sources */,
+				91CAE215181B18F600DF8CD0 /* DSViewController.m in Sources */,
+				91CAE20C181B18F600DF8CD0 /* DSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CAE218181B18F600DF8CD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CAE22A181B18F600DF8CD0 /* DSZombieScrollTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91CAE222181B18F600DF8CD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91CAE1F7181B18F500DF8CD0 /* DSZombieScroll */;
+			targetProxy = 91CAE221181B18F600DF8CD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91CAE204181B18F600DF8CD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91CAE205181B18F600DF8CD0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		91CAE20D181B18F600DF8CD0 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91CAE20E181B18F600DF8CD0 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		91CAE210181B18F600DF8CD0 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91CAE211181B18F600DF8CD0 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		91CAE226181B18F600DF8CD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91CAE227181B18F600DF8CD0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91CAE22B181B18F600DF8CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91CAE22C181B18F600DF8CD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91CAE22E181B18F600DF8CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSZombieScroll/DSZombieScroll-Prefix.pch";
+				INFOPLIST_FILE = "DSZombieScroll/DSZombieScroll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		91CAE22F181B18F600DF8CD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSZombieScroll/DSZombieScroll-Prefix.pch";
+				INFOPLIST_FILE = "DSZombieScroll/DSZombieScroll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		91CAE231181B18F600DF8CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DSZombieScroll.app/DSZombieScroll";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSZombieScroll/DSZombieScroll-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DSZombieScrollTests/DSZombieScrollTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		91CAE232181B18F600DF8CD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DSZombieScroll.app/DSZombieScroll";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSZombieScroll/DSZombieScroll-Prefix.pch";
+				INFOPLIST_FILE = "DSZombieScrollTests/DSZombieScrollTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91CAE1F3181B18F500DF8CD0 /* Build configuration list for PBXProject "DSZombieScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91CAE22B181B18F600DF8CD0 /* Debug */,
+				91CAE22C181B18F600DF8CD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91CAE22D181B18F600DF8CD0 /* Build configuration list for PBXNativeTarget "DSZombieScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91CAE22E181B18F600DF8CD0 /* Debug */,
+				91CAE22F181B18F600DF8CD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91CAE230181B18F600DF8CD0 /* Build configuration list for PBXNativeTarget "DSZombieScrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91CAE231181B18F600DF8CD0 /* Debug */,
+				91CAE232181B18F600DF8CD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91CAE1F0181B18F500DF8CD0 /* Project object */;
+}
