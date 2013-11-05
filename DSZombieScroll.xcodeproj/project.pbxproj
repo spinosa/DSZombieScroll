@@ -14,7 +14,6 @@
 		91CAE208181B18F600DF8CD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CAE207181B18F600DF8CD0 /* main.m */; };
 		91CAE20C181B18F600DF8CD0 /* DSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CAE20B181B18F600DF8CD0 /* DSAppDelegate.m */; };
 		91CAE20F181B18F600DF8CD0 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91CAE20D181B18F600DF8CD0 /* Main_iPhone.storyboard */; };
-		91CAE212181B18F600DF8CD0 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91CAE210181B18F600DF8CD0 /* Main_iPad.storyboard */; };
 		91CAE215181B18F600DF8CD0 /* DSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CAE214181B18F600DF8CD0 /* DSViewController.m */; };
 		91CAE217181B18F600DF8CD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91CAE216181B18F600DF8CD0 /* Images.xcassets */; };
 		91CAE21E181B18F600DF8CD0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CAE21D181B18F600DF8CD0 /* XCTest.framework */; };
@@ -22,6 +21,8 @@
 		91CAE220181B18F600DF8CD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CAE1FF181B18F600DF8CD0 /* UIKit.framework */; };
 		91CAE228181B18F600DF8CD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91CAE226181B18F600DF8CD0 /* InfoPlist.strings */; };
 		91CAE22A181B18F600DF8CD0 /* DSZombieScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CAE229181B18F600DF8CD0 /* DSZombieScrollTests.m */; };
+		91CAE235181B1B8900DF8CD0 /* DSScrollDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CAE234181B1B8900DF8CD0 /* DSScrollDelegate.m */; };
+		91CAE238181B1F4000DF8CD0 /* DSScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CAE237181B1F4000DF8CD0 /* DSScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +47,6 @@
 		91CAE20A181B18F600DF8CD0 /* DSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSAppDelegate.h; sourceTree = "<group>"; };
 		91CAE20B181B18F600DF8CD0 /* DSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSAppDelegate.m; sourceTree = "<group>"; };
 		91CAE20E181B18F600DF8CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		91CAE211181B18F600DF8CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		91CAE213181B18F600DF8CD0 /* DSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSViewController.h; sourceTree = "<group>"; };
 		91CAE214181B18F600DF8CD0 /* DSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSViewController.m; sourceTree = "<group>"; };
 		91CAE216181B18F600DF8CD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +55,10 @@
 		91CAE225181B18F600DF8CD0 /* DSZombieScrollTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DSZombieScrollTests-Info.plist"; sourceTree = "<group>"; };
 		91CAE227181B18F600DF8CD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		91CAE229181B18F600DF8CD0 /* DSZombieScrollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSZombieScrollTests.m; sourceTree = "<group>"; };
+		91CAE233181B1B8900DF8CD0 /* DSScrollDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSScrollDelegate.h; sourceTree = "<group>"; };
+		91CAE234181B1B8900DF8CD0 /* DSScrollDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSScrollDelegate.m; sourceTree = "<group>"; };
+		91CAE236181B1F4000DF8CD0 /* DSScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSScrollView.h; sourceTree = "<group>"; };
+		91CAE237181B1F4000DF8CD0 /* DSScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,11 +121,14 @@
 				91CAE20A181B18F600DF8CD0 /* DSAppDelegate.h */,
 				91CAE20B181B18F600DF8CD0 /* DSAppDelegate.m */,
 				91CAE20D181B18F600DF8CD0 /* Main_iPhone.storyboard */,
-				91CAE210181B18F600DF8CD0 /* Main_iPad.storyboard */,
 				91CAE213181B18F600DF8CD0 /* DSViewController.h */,
 				91CAE214181B18F600DF8CD0 /* DSViewController.m */,
 				91CAE216181B18F600DF8CD0 /* Images.xcassets */,
 				91CAE202181B18F600DF8CD0 /* Supporting Files */,
+				91CAE233181B1B8900DF8CD0 /* DSScrollDelegate.h */,
+				91CAE234181B1B8900DF8CD0 /* DSScrollDelegate.m */,
+				91CAE236181B1F4000DF8CD0 /* DSScrollView.h */,
+				91CAE237181B1F4000DF8CD0 /* DSScrollView.m */,
 			);
 			path = DSZombieScroll;
 			sourceTree = "<group>";
@@ -232,7 +239,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91CAE212181B18F600DF8CD0 /* Main_iPad.storyboard in Resources */,
 				91CAE217181B18F600DF8CD0 /* Images.xcassets in Resources */,
 				91CAE20F181B18F600DF8CD0 /* Main_iPhone.storyboard in Resources */,
 				91CAE206181B18F600DF8CD0 /* InfoPlist.strings in Resources */,
@@ -256,6 +262,8 @@
 			files = (
 				91CAE208181B18F600DF8CD0 /* main.m in Sources */,
 				91CAE215181B18F600DF8CD0 /* DSViewController.m in Sources */,
+				91CAE235181B1B8900DF8CD0 /* DSScrollDelegate.m in Sources */,
+				91CAE238181B1F4000DF8CD0 /* DSScrollView.m in Sources */,
 				91CAE20C181B18F600DF8CD0 /* DSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,14 +301,6 @@
 				91CAE20E181B18F600DF8CD0 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		91CAE210181B18F600DF8CD0 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				91CAE211181B18F600DF8CD0 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		91CAE226181B18F600DF8CD0 /* InfoPlist.strings */ = {
@@ -397,6 +397,7 @@
 				GCC_PREFIX_HEADER = "DSZombieScroll/DSZombieScroll-Prefix.pch";
 				INFOPLIST_FILE = "DSZombieScroll/DSZombieScroll-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -410,6 +411,7 @@
 				GCC_PREFIX_HEADER = "DSZombieScroll/DSZombieScroll-Prefix.pch";
 				INFOPLIST_FILE = "DSZombieScroll/DSZombieScroll-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -475,6 +477,7 @@
 				91CAE22F181B18F600DF8CD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91CAE230181B18F600DF8CD0 /* Build configuration list for PBXNativeTarget "DSZombieScrollTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +486,7 @@
 				91CAE232181B18F600DF8CD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
